@@ -33,17 +33,33 @@
 # Напишите программу для нахождения максимального числа ягод, которое может собрать за один заход собирающий модуль, 
 # находясь перед некоторым кустом заданной во входном файле грядки.
 
-n = int(input("Введите количество кустов: "))
-while n < 3:
-    n = int(input('Вы ошиблись! Количество кустов не должно быть меньше 3-х! \n Введите количество кустов: '))
+# n = int(input("Введите количество кустов: "))
+# while n < 3:
+#     n = int(input('Вы ошиблись! Количество кустов не должно быть меньше 3-х! \n Введите количество кустов: '))
 
-numbers = list()
-for i in range(n):
-    numbers.append(int(input(f"Введите количество ягод на кусту {i + 1}: ")))
+# numbers = list()
+# for i in range(n):
+#     numbers.append(int(input(f"Введите количество ягод на кусту {i + 1}: ")))
 
-numbers_count = list()
-for i in range(len(numbers) - 1):
-    numbers_count.append(numbers[i - 1] + numbers[i] + numbers[i + 1])
-numbers_count.append(numbers[-2] + numbers[-1] + numbers[0])
+# numbers_count = list()
+# for i in range(len(numbers) - 1):
+#     numbers_count.append(numbers[i - 1] + numbers[i] + numbers[i + 1])
+# numbers_count.append(numbers[-2] + numbers[-1] + numbers[0])
 
-print(f"Максимального числа ягод, которое может собрать за один заход собирающий модуль: {max(numbers_count)}")
+# print(f"Максимального числа ягод, которое может собрать за один заход собирающий модуль: {max(numbers_count)}")
+
+
+# a = int(input('Введите число факториала: '))
+# i = 1
+# while a > 1:
+#     i *= a
+#     a -= 1
+# print(i)
+
+# n = int(input("Введите число: "))
+# f = 1
+# for i in range(1, n + 1):
+#     f *= i
+# print(f)
+
+# n = int(input('Введите число: '))
